@@ -1,0 +1,9 @@
+{
+    "git.ignoreLimitWarning": true,
+    "terminal.integrated.confirmOnExit": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "InsertingNode.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
