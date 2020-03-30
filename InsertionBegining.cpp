@@ -14,10 +14,10 @@ Node* Insert(Node* head,int x)
   temp->data = x;  //derefrencing   (*temp).data=x;
   temp->next = NULL; //when use only list empty and head is already full
  
-  if (head!=NULL) temp->next = head;
-    
+  if (head!=NULL) 
+    temp->next = head;
     head=temp;        
-    return head;
+return head;
 }
 void print(Node* head)
 { 

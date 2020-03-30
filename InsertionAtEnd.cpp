@@ -8,17 +8,17 @@ class Node
 };
 Node* head; // Global Variable 
 
-void createList(int n)    // First Create the singly LinkedList 
+void createList(int n)    // First Create the Singly LinkedList 
 {                        // n is number of nodes 
     Node *newNode,*temp;
     int nodeData;
     
     head  = new Node();
-
     if(head==NULL)
     {
-        cout<<"Unable to allocate memory.";
+        cout<<"Unable to allocates";
     }
+    
     else
     {
         cout<<"Enter the data of node 1st : ";     // First data in start/head node
@@ -121,5 +121,4 @@ int main()
 cout<<"--------------------------------------------------------------------------------------------------"<<endl;
 cout<<"\t\t\t\t Display the List"<<endl;
 PrintList();
-
 }
